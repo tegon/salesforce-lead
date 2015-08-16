@@ -1,8 +1,6 @@
 # salesforce-lead
 Create Leads using Salesforce API
 
-[![Build Status](https://travis-ci.org/tegon/salesforce-lead.svg?branch=master)](https://travis-ci.org/tegon/salesforce-lead)
-
 #Usage
 
 ###Constructor
