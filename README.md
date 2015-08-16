@@ -56,7 +56,7 @@ Check if the request succeed
 When the request fails, the errors are stored in this array
 
 #####Example
-```json
+```ruby
 [{ message: 'Bad Request', code: 'BAD_REQUEST' }]
 ```
 
