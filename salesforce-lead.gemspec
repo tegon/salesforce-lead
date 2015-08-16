@@ -8,4 +8,5 @@ Gem::Specification.new do |s|
   s.files       = ["lib/salesforce/lead.rb"]
   s.homepage    = 'https://github.com/tegon/salesforce-lead'
   s.license     = 'MIT'
+  s.add_dependency 'httparty', '0.13.5'
 end
