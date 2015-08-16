@@ -1,0 +1,32 @@
+PATH
+  remote: .
+  specs:
+    salesforce-lead (0.0.1)
+      httparty (= 0.13.5)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.8)
+    crack (0.4.2)
+      safe_yaml (~> 1.0.0)
+    httparty (0.13.5)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.3)
+    minitest (5.5.0)
+    multi_xml (0.5.5)
+    rubygems-tasks (0.2.4)
+    safe_yaml (1.0.4)
+    webmock (1.21.0)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  minitest (= 5.5)
+  rubygems-tasks (= 0.2.4)
+  salesforce-lead!
+  webmock (= 1.21.0)
