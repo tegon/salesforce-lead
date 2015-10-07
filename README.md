@@ -2,7 +2,6 @@
 Create Leads using Salesforce API
 
 [![Gem Version](https://badge.fury.io/rb/salesforce-lead.svg)](http://badge.fury.io/rb/salesforce-lead)
-[![License](https://img.shields.io/github/license/tegon/salesforce-lead.svg)](LICENSE)
 
 #Usage
 
