@@ -3,9 +3,9 @@ Create Leads using Salesforce API
 
 [![Gem Version](https://badge.fury.io/rb/salesforce-lead.svg)](http://badge.fury.io/rb/salesforce-lead)
 
-#Usage
+# Usage
 
-###Constructor
+### Constructor
 ---
 
 ```ruby
@@ -23,7 +23,7 @@ Create Leads using Salesforce API
 	}
 ```
 
-####Example
+#### Example
 
 ```ruby
 Salesforce::Lead.new({
@@ -39,28 +39,28 @@ Salesforce::Lead.new({
 })
 ```
 
-###Methods
+### Methods
 ---
 
-####create
+#### create
 
 Sends the Lead to Salesforce API. Returns false if an error has ocurred or true if the request was succesfull.
 
-####success?
+#### success?
 Check if the request succeed
 
-###Attributes
+### Attributes
 ---
 
-####errors
+#### errors
 When the request fails, the errors are stored in this array
 
-#####Example
+##### Example
 ```ruby
 [{ message: 'Bad Request', code: 'BAD_REQUEST' }]
 ```
 
-#Development
+# Development
 
 Install the dependencies
 
